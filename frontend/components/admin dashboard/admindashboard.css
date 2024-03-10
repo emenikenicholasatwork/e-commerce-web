@@ -1,0 +1,6 @@
+.popup{
+    transform: translate(0px, 27px);
+    inset: 0px 0px auto auto;
+    position: absolute;
+    margin: 0px;
+}

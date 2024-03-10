@@ -1,0 +1,28 @@
+.notifications{
+    inset:  8px -15px auto auto !important;
+}
+.notifications .notification-item{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    transition: 0.3s;
+}
+.drop{
+    transform: translate(-25px, 35px);
+    inset: 0px 0px auto auto;
+    position: absolute;
+    margin: 0px;
+}
+.notifications .notification-item i{
+    margin: 0 20px 0 10px;
+    font-size: 24px;
+}
+.profile{
+    min-width: 240px;
+    padding-bottom: 0;
+    top: 8px !important;
+}
+.messages .message-item{
+    padding: 15px 10px;
+    transition: 0.3s;
+}

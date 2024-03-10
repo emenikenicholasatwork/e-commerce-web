@@ -1,0 +1,35 @@
+# spring.datasource.url=jdbc:mysql://localhost:3306/toDo
+# spring.datasource.username=root
+# spring.datasource.password=emenic2002
+# spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+# spring.jpa.hibernate.ddl-auto=update
+# spring.jpa.show-sql=true
+
+server:
+  tomcat:
+    max-http-form-post-size: 50MB
+
+encryption:
+  key: pVHaWpDgdl9EfrPXkYWZKMsSE4byIVRc
+  images: Data/EncryptedImages
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/EcomData
+    username: root
+    password: Emenike@16
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    # show-sql: true
+    properties:
+      hibernate:
+        # format_sql: true
+      database: mysql
